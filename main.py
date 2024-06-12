@@ -9,7 +9,7 @@ if __name__ == '__main__':
     environment = env.buildEnvironment((1200, 600))
     environment.original_map = environment.map.copy()
     laser = sensors.LaserSensor(75, environment.original_map, uncertainty=(0.5, 0.01))
-    #environment.map.fill(pygame.Color("black"))
+    environment.map.fill(pygame.Color("black"))
     environment.info_map = environment.map.copy()
 
     run = True

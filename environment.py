@@ -7,7 +7,7 @@ class buildEnvironment:
         self.point_cloud = []
         self.map_width, self.map_height = map_dimensions
         self.window_name = "Lidar Project"
-        self.external_map = pygame.image.load('map1.png')
+        self.external_map = pygame.image.load('map2.png')
 
         pygame.init()
         pygame.display.set_caption(self.window_name)
